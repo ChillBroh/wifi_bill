@@ -18,6 +18,7 @@ public class Wif_Main {
         Calculate_wifi wifi = new Calculate_wifi();
         wifi.set_bill(total,percentage[0],percentage[1],percentage[2],percentage[3]);
 
+        wifi.calculate_bill();
     }
 
 }

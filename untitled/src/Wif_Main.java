@@ -13,4 +13,11 @@ public class Wif_Main {
 
         }
 
+        System.out.println("Enter total bill value for month with 2 decimals : ");
+        double total = bill.nextDouble();
+        Calculate_wifi wifi = new Calculate_wifi();
+        wifi.set_bill(total,percentage[0],percentage[1],percentage[2],percentage[3]);
+
+    }
+
 }

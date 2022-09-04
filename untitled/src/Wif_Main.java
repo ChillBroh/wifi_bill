@@ -10,6 +10,7 @@ public class Wif_Main {
         for(i = 0; i < 4; i++){
             System.out.println("Enter Percentage for " + names[i]);
             percentage[i] = bill.nextInt();
+
         }
 
 }

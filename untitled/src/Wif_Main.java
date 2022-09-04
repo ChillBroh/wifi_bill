@@ -6,14 +6,14 @@ public class Wif_Main {
         int[] percentage = new int[4];
         int i;
         Scanner bill = new Scanner(System.in);
-
+        System.out.println("*******************************");
         for(i = 0; i < 4; i++){
-            System.out.println("Enter Percentage for " + names[i]);
+            System.out.print("Enter Percentage for " + names[i] + ": ");
             percentage[i] = bill.nextInt();
-
         }
+        System.out.println("*******************************");
 
-        System.out.println("Enter total bill value for month with 2 decimals : ");
+        System.out.print("Enter total bill value for month with 2 decimals : ");
         double total = bill.nextDouble();
         Calculate_wifi wifi = new Calculate_wifi();
         wifi.set_bill(total,percentage[0],percentage[1],percentage[2],percentage[3]);

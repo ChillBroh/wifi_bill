@@ -13,5 +13,12 @@ public class Calculate_wifi {
         this.sara = sara;
         this.total_bill = bill;
     }
+    public void calculate_bill(){
+        double aj = total_bill * aj/100.0;
+        double ishara = total_bill * ishara/100.0;
+        double isuru = total_bill * isuru/100.0;
+        double sara = total_bill * sara/100.0;
 
+
+    }
 }

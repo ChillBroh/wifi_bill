@@ -14,11 +14,15 @@ public class Calculate_wifi {
         this.total_bill = bill;
     }
     public void calculate_bill(){
-        double aj = total_bill * aj/100.0;
-        double ishara = total_bill * ishara/100.0;
-        double isuru = total_bill * isuru/100.0;
-        double sara = total_bill * sara/100.0;
-
-
+        double aj_total = total_bill * aj/100.0;
+        double ishara_total = total_bill * ishara/100.0;
+        double isuru_total = total_bill * isuru/100.0;
+        double sara_total = total_bill * sara/100.0;
+        System.out.println("***********************************");
+        System.out.println("Ishara's contribution : " + ishara_total);
+        System.out.println("Isuru's contribution : " + isuru_total);
+        System.out.println("AJ's contribution : " + aj_total);
+        System.out.println("Sara's contribution : " + sara_total);
+        System.out.println("***********************************");
     }
 }

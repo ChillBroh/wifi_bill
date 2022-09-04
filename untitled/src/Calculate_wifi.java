@@ -1,6 +1,17 @@
 public class Calculate_wifi {
-    private final int aj = 30;
-    private final int ishara = 0;
-    private final int isuru = 35;
-    private final int sara = 35;
+    private int aj;
+    private int ishara;
+    private int isuru;
+    private int sara;
+    private double total_bill;
+
+
+    public void set_bill(double bill,int ishara,int isuru,int aj,int sara){
+        this.ishara = ishara;
+        this.isuru = isuru;
+        this.aj = aj;
+        this.sara = sara;
+        this.total_bill = bill;
+    }
+
 }
